@@ -1,0 +1,133 @@
+.tree {
+  margin-top: 10%;
+  margin-left: 5%;
+  line-height: 90px;
+}
+.tree h4 {
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+}
+.tree h2 {
+  font-weight: 600;
+  font-size: 75px;
+  color: white;
+  line-height: 100px;
+}
+.tree b {
+  font-weight: 400;
+  font-size: 23px;
+  color: rgb(84, 78, 78);
+}
+.tree h6 {
+  font-weight: 400;
+  font-size: 23px;
+  margin-top: -50px;
+  color: rgb(84, 78, 78);
+}
+
+.imges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.imges img {
+  width: 820px;
+  height: 591px;
+  background-size: cover;
+  margin-left: 45%;
+  margin-top: -32%;
+}
+
+.butons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.butons .blue {
+  width: 200px;
+  height: 45px;
+  background-color: #326CF9;
+  color: white;
+}
+.butons .red {
+  width: 200px;
+  height: 45px;
+  background: #0E0E0E;
+  color: white;
+}
+
+.tery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tery .yodr {
+  color: blue;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: -100px;
+}
+
+.lou {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.lou .juy {
+  margin-top: -50px;
+  margin-left: -330px;
+  font-weight: 600;
+  font-size: 65px;
+  margin-left: -80px;
+}
+.lou .lot {
+  color: red;
+}
+
+.lot {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  width: 500px;
+  line-height: 35px;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.imgt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+}
+.imgt img {
+  width: 700px;
+}
+
+.ytr {
+  width: 200px;
+  height: 45px;
+  background-color: #326CF9;
+  color: white;
+  margin-left: 38%;
+  margin-top: 50px;
+}
+
+.loytr {
+  margin-top: 200px;
+}/*# sourceMappingURL=you.css.map */

@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  color: #333;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+section header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 400px;
+  padding: 25px 0;
+}
+section header h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+section .list ul:hover {
+  color: blue;
+}
+section .list ul .blu {
+  color: blue;
+}
+section .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+section .login li {
+  color: white;
+}
+section .login .div {
+  background-color: blue;
+  padding: 10px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 6px;
+}
+section .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+section .text .own {
+  color: white;
+  font-size: 80px;
+  font-weight: 300;
+  width: 790px;
+}
+section .text .own a {
+  color: rgb(180, 180, 5);
+}
+section .turn {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -50px;
+  padding: 6% 0;
+}
+section .turn .turn_your {
+  width: 470px;
+  font-size: 32px;
+  color: white;
+}
+
+.button_lar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -50px;
+  margin-top: -40px;
+}
+.button_lar button {
+  width: 240px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: black;
+  color: #333;
+  border: 1px solid rgb(93, 89, 89);
+}
+.button_lar button:hover {
+  -webkit-box-shadow: 0 0 3px white;
+          box-shadow: 0 0 3px white;
+}
+.button_lar .blue {
+  background-color: blue;
+  color: white;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.button_lar .blue:hover {
+  background-color: rgb(8, 56, 138);
+  -webkit-box-shadow: 0 0 3px white;
+          box-shadow: 0 0 3px white;
+}
+
+.byt {
+  background-color: green;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  margin-left: 37%;
+  margin-top: 50px;
+  -webkit-box-shadow: 0 0 6px white;
+          box-shadow: 0 0 6px white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  margin-left: -40px;
+  padding: 20px 0;
+  font-size: 20px;
+  margin-top: -35px;
+}
+h3 a {
+  color: #333;
+}
+
+h5 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  margin-left: -30px;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 370px;
+  margin-bottom: 100px;
+  margin-left: -60px;
+}
+.text2 p {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.lorem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 280px;
+  margin-top: -90px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  color: #333;
+}/*# sourceMappingURL=nav.css.map */

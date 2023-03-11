@@ -1,0 +1,62 @@
+
+
+.main_step{
+	
+	h4{
+	text-align: center;
+	font-size: 25px;
+	color: blue;	
+	margin-bottom: 50px;
+	transition: all .3s ease;
+	&:hover{
+		color: rgb(8, 150, 160);
+	}
+	}
+	.connekt{
+		display: flex;
+		justify-content: center;
+		h2{
+		font-size: 70px;
+		letter-spacing: 7px;
+		color: white;
+		margin-bottom: 50px;
+		margin-top: -37px;
+		}
+	}	
+	.lor{
+		display: flex;
+		justify-content: center;
+		.lorem3{
+			width: 800px;
+			text-align: center;
+			font-weight: 400;
+			font-size: 30px;
+			color:#707070;
+			margin-top: -50px;
+			
+		}
+	}
+	.but{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+		button{
+			width:300px;
+			height: 50px;
+			background-color: #000000;
+			color: white;
+			border: 1px solid #707070;
+			margin-bottom: 34px;
+				margin-top: 34px;
+				transition: all .3s ease;
+				&:hover{
+					box-shadow: 0 0 10px rgb(94, 82, 82);
+				}
+				a{
+					color: white;
+				}
+		}
+	}
+	
+}
